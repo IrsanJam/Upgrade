@@ -370,15 +370,19 @@ h6 {
   }
   #inp1 {
     height: 12px;
+    border: 1px solid wheat;
   }
   #inp2 {
     height: 12px;
+    border: 1px solid wheat;
   }
   #inp3 {
     height: 12px;
+    border: 1px solid wheat;
   }
   #inp4 {
     height: 300px;
+    border: 1px solid wheat;
   }
   #kirim {
     width: 100px;
