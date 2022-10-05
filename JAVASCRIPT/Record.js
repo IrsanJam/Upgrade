@@ -18,4 +18,3 @@ function cek() {
     showMassage;
   }
 }
-console.log(cek());
