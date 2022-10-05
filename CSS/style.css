@@ -304,29 +304,29 @@ h6 {
   }
   .satu {
     flex: 6;
-    width: 93%;
+    width: 92.5%;
     margin-top: 200px;
     background-position: 0px -10px;
   }
   .dua {
     flex: 6;
     background-position: 0px -220px;
-    width: 93%;
+    width: 92.5%;
   }
   .tiga {
     flex: 6;
     background-position: 0px -220px;
-    width: 93%;
+    width: 92.5%;
   }
   .empat {
     flex: 6;
     background-position: 0px -220px;
-    width: 93%;
+    width: 92.5%;
   }
   .lima {
     flex: 6;
     background-position: 0px -190px;
-    width: 93%;
+    width: 92.5%;
   }
   /* akhir mengatur products */
 
