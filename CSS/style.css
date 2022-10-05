@@ -270,6 +270,7 @@ h6 {
     padding-top: 28px;
     height: auto;
     width: auto;
+    padding-bottom: 30px;
   }
   #abus h2 {
     padding-top: 10px;
@@ -279,7 +280,7 @@ h6 {
   #abus p {
     font-size: 9px;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     line-height: 0.5cm;
   }
   /* akhir mengatur about us */
