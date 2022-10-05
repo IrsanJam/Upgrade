@@ -1,5 +1,5 @@
 let send = document.getElementById("kirim");
-send.onclick = showMassage;
+send.onclick = cek;
 
 function showMassage() {
   alert("Terimakasih, untuk permintaanya akan kami proses");
@@ -13,9 +13,11 @@ function cek() {
   if ((check1 = "")) {
     showMassage;
   } else if ((check2 = "")) {
+    showMassage;
   } else if ((check3 = "")) {
   } else if ((check4 = "")) {
   } else {
     showMassage;
   }
 }
+console.log(cek());
