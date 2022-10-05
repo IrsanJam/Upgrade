@@ -230,13 +230,10 @@ h6 {
   * {
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
-  }
-  body {
-    overflow: hidden;
   }
   .navbar {
     height: 80px;
+    width: auto;
   }
   /* untuk mengatur main */
   .main #utama {
@@ -253,6 +250,7 @@ h6 {
     padding: 147px 50px;
     background-position: 0px 0px;
     height: 500px;
+    width: auto;
   }
   #but {
     width: 100px;
@@ -269,6 +267,7 @@ h6 {
   #abus {
     padding-top: 28px;
     height: auto;
+    width: auto;
   }
   #abus h2 {
     padding-top: 10px;
@@ -285,6 +284,7 @@ h6 {
   /* mengatur products */
   #products {
     height: 1300px;
+    width: auto;
   }
   #products h2 {
     padding-top: 30px;
@@ -335,6 +335,7 @@ h6 {
     padding-top: 10px;
     height: auto;
     padding-bottom: 10px;
+    width: auto;
   }
   #about h2 {
     padding-top: 10px;
@@ -352,6 +353,7 @@ h6 {
     padding-top: 10px;
     height: auto;
     padding-bottom: 20px;
+    width: auto;
   }
   #contacts h2 {
     padding-top: 30px;
@@ -404,6 +406,9 @@ h6 {
   }
   #wa {
     font-family: Arial, Helvetica, sans-serif;
+  }
+  #footer {
+    width: auto;
   }
   #footer h5 {
     font-size: 14px;
