@@ -15,6 +15,10 @@ function cek() {
   } else if ((check3 = "")) {
   } else if ((check4 = "")) {
   } else {
+    check1 = "";
+    check2 = "";
+    check3 = "";
+    check4 = "";
     showMassage;
   }
 }
