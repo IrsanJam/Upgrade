@@ -228,12 +228,12 @@ h6 {
 
 @media (max-width: 830px) {
   * {
-    padding: 0px;
-    margin: 0px;
+    max-width: 100%;
   }
   .navbar {
     height: 80px;
     width: auto;
+    box-sizing: border-box;
   }
   /* untuk mengatur main */
   .main #utama {
@@ -249,7 +249,7 @@ h6 {
     text-align: center;
     padding: 147px 50px;
     background-position: 0px 0px;
-    height: 500px;
+    height: 600px;
     width: auto;
   }
   #but {
