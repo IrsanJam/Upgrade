@@ -237,7 +237,8 @@ h6 {
   }
   /* untuk mengatur main */
   .main #utama {
-    font-size: 60px;
+    font-size: 70px;
+    width: 100%;
   }
   .main #subs {
     font-size: 20px;
@@ -276,8 +277,9 @@ h6 {
   }
   #abus p {
     font-size: 9px;
-    text-align: justify;
+    text-align: center;
     padding-bottom: 30px;
+    line-height: 0.5cm;
   }
   /* akhir mengatur about us */
 
@@ -344,7 +346,8 @@ h6 {
   }
   #about p {
     font-size: 9px;
-    text-align: justify;
+    text-align: center;
+    line-height: 0.5cm;
   }
   /* akhir mengatur about */
 
