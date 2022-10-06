@@ -1,22 +1,18 @@
 let send = document.getElementById("kirim");
-send.onclick = ceko;
-
-function showMassage() {
-  alert("Terimakasih, untuk permintaanya akan kami proses");
-}
+send.onclick = showMassage;
 
 //  cek input
-let check1 = document.getElementById("inp1");
-let check2 = document.getElementById("inp2");
-let check3 = document.getElementById("inp3");
-let check4 = document.getElementById("inp4");
 
-let ceko = () => {
-  switch (check1 & check2 & check3 & check4) {
-    case "":
-      break;
-    default:
-      alert("Terimakasih, untuk permintaanya akan kami proses");
-      break;
+function showMassage() {
+  let check1 = document.getElementById("inp1").value;
+  let check2 = document.getElementById("inp2").value;
+  let check3 = document.getElementById("inp3").value;
+  let check4 = document.getElementById("inp4").value;
+
+  if (check1 != "" && check2 != "" && check3 != "" && check4 != "") {
+    alert("Terimakasih Permintaan anda akan kami Proses");
+    return true;
+  } else {
+    alert("Mohon Isi Dahulu dan Lengkapi");
   }
-};
+}
