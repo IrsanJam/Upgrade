@@ -14,7 +14,6 @@ let check4 = document.getElementById("inp4");
 let ceko = () => {
   switch (check1 & check2 & check3 & check4) {
     case "":
-      showMassage;
       break;
     default:
       showMassage;
