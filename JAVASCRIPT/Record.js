@@ -16,7 +16,7 @@ let ceko = () => {
     case "":
       break;
     default:
-      showMassage;
+      alert("Terimakasih, untuk permintaanya akan kami proses");
       break;
   }
 };
