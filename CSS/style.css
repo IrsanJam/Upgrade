@@ -101,8 +101,14 @@ h6 {
   padding: 20px;
   box-sizing: border-box;
 }
-
-/* .satu {
+a {
+  text-decoration: none;
+  color: wheat;
+}
+a:hover {
+  color: orange;
+}
+.satu {
   flex: 3;
   background-image: url(../Assets/IMG/Menu/1.jpeg);
   margin: 15px;
@@ -123,62 +129,9 @@ h6 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-} */
-#a2 {
-  width: 200px;
-  background-color: rgb(126, 58, 9);
-  height: 50px;
-  color: wheat;
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 2px solid rgb(187, 154, 92);
+  position: absolute;
 }
-#a3 {
-  width: 200px;
-  background-color: rgb(126, 58, 9);
-  height: 50px;
-  display: flex;
-  font-weight: bold;
-  flex-wrap: wrap;
-  color: wheat;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 2px solid rgb(187, 154, 92);
-}
-#a4 {
-  width: 200px;
-  background-color: rgb(126, 58, 9);
-  height: 50px;
-  display: flex;
-  font-weight: bold;
-  flex-wrap: wrap;
-  color: wheat;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 2px solid rgb(187, 154, 92);
-}
-#a5 {
-  width: 200px;
-  background-color: rgb(126, 58, 9);
-  height: 50px;
-  display: flex;
-  font-weight: bold;
-  flex-wrap: wrap;
-  color: wheat;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 2px solid rgb(187, 154, 92);
-}
-a {
-  text-decoration: none;
-  color: wheat;
-}
-a:hover {
-  color: orange;
-}
+
 .dua {
   flex: 3;
   background-image: url(../Assets/IMG/Menu/3.jpeg);
@@ -190,6 +143,19 @@ a:hover {
   height: 200px;
   width: 200px;
   display: flex;
+  position: relative;
+}
+#a2 {
+  width: 200px;
+  background-color: rgb(126, 58, 9);
+  height: 50px;
+  color: wheat;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 .tiga {
   flex: 3;
@@ -201,7 +167,21 @@ a:hover {
   border: 3px solid rgb(187, 154, 92);
   height: 200px;
   width: 200px;
+  position: relative;
   display: flex;
+}
+#a3 {
+  width: 200px;
+  background-color: rgb(126, 58, 9);
+  height: 50px;
+  display: flex;
+  font-weight: bold;
+  flex-wrap: wrap;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
 }
 .empat {
   flex: 3;
@@ -214,6 +194,20 @@ a:hover {
   height: 200px;
   width: 200px;
   display: flex;
+  position: relative;
+}
+#a4 {
+  width: 200px;
+  background-color: rgb(126, 58, 9);
+  height: 50px;
+  display: flex;
+  font-weight: bold;
+  flex-wrap: wrap;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
 }
 .lima {
   flex: 3;
@@ -226,6 +220,19 @@ a:hover {
   height: 200px;
   width: 200px;
   display: flex;
+  position: relative;
+}
+#a5 {
+  width: 200px;
+  background-color: rgb(126, 58, 9);
+  height: 50px;
+  display: flex;
+  font-weight: bold;
+  flex-wrap: wrap;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 #about {
   background-color: rgba(82, 38, 7, 0.7);
@@ -384,31 +391,37 @@ a:hover {
   #a1 {
     border-radius: 4px;
     width: 100%;
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 0px;
   }
   #a2 {
     border-radius: 4px;
     width: 100%;
     font-size: 12px;
     font-weight: bold;
+    bottom: 0px;
   }
   #a3 {
     border-radius: 4px;
     width: 100%;
     font-size: 12px;
     font-weight: bold;
+    bottom: 0px;
   }
   #a4 {
     border-radius: 4px;
     width: 100%;
     font-size: 12px;
     font-weight: bold;
+    bottom: 0px;
   }
   #a5 {
     border-radius: 4px;
     width: 100%;
     font-size: 12px;
     font-weight: bold;
+    bottom: 0px;
   }
   .dua {
     flex: 6;
