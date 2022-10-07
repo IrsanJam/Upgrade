@@ -431,11 +431,11 @@ a:hover {
   }
   #a2 {
     border-radius: 4px;
-    width: 120px;
+    width: 40%;
     font-size: 12px;
     font-weight: bold;
     bottom: 0px;
-    right: 90px;
+    left: 30%;
     position: absolute;
   }
   .tiga {
@@ -447,11 +447,11 @@ a:hover {
   }
   #a3 {
     border-radius: 4px;
-    width: 120px;
+    width: 40%;
     font-size: 12px;
     font-weight: bold;
     bottom: 0px;
-    right: 90px;
+    left: 30%;
     position: absolute;
   }
   .empat {
@@ -463,11 +463,11 @@ a:hover {
   }
   #a4 {
     border-radius: 4px;
-    width: 120px;
+    width: 40%;
     font-size: 12px;
     font-weight: bold;
     bottom: 0px;
-    right: 90px;
+    left: 30%;
     position: absolute;
   }
   .lima {
@@ -480,11 +480,11 @@ a:hover {
 
   #a5 {
     border-radius: 4px;
-    width: 120px;
+    width: 40%;
     font-size: 12px;
     font-weight: bold;
     bottom: 0px;
-    right: 90px;
+    left: 30%;
     position: absolute;
   }
   /* akhir mengatur products */
