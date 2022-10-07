@@ -424,7 +424,7 @@ a:hover {
 
   .dua {
     flex: 6;
-    background-position: 0px -25px;
+    background-position: 35% 65%;
     width: 80%;
     margin: auto;
     height: 300px;
@@ -442,7 +442,7 @@ a:hover {
   }
   .tiga {
     flex: 6;
-    background-position: 0px -25px;
+    background-position: 35% 65%;
     height: 300px;
     width: 80%;
     margin: auto;
@@ -460,7 +460,7 @@ a:hover {
   }
   .empat {
     flex: 6;
-    background-position: 0px -25px;
+    background-position: 35% 65%;
     width: 80%;
     margin: auto;
     height: 300px;
@@ -478,7 +478,7 @@ a:hover {
   }
   .lima {
     flex: 6;
-    background-position: 0px -25px;
+    background-position: 35% 65%;
     width: 80%;
     margin: auto;
     height: 300px;
