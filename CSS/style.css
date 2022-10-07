@@ -13,19 +13,27 @@ h2 {
 }
 h2,
 p {
-  color: wheat;
+  color: rgb(3, 3, 3, 0.6);
   text-align: center;
 }
 p {
   font-size: small;
 }
+
 .navbar {
-  background-color: rgba(82, 38, 7, 0.7) !important;
+  background-color: #fabd03 !important;
   height: 90px;
 }
+
 .main h1,
 h6 {
   font-family: "satisfy";
+}
+#subs,
+.main h6 {
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 2px rgb(3, 3, 3, 0.6);
 }
 .main h1 {
   font-size: 40px;
@@ -33,18 +41,19 @@ h6 {
 .main #utama {
   font-size: 120px;
   padding-bottom: 0px;
-  color: rgba(82, 38, 7, 0.96);
+  color: #fabd03;
+  text-shadow: 1px 2px rgb(3, 3, 3, 0.6);
 }
 .main {
-  background-image: url(../Assets/IMG/Menu/6039257975f75\(2\).jpg);
+  background-image: url(../Assets/IMG/Profil/zyro-image.jpeg);
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
-  background-position: 0px -150px;
-  padding: 140px 15%;
-  height: 660px;
+  background-position: 0px -450px;
+  padding: 170px 15%;
+  height: 680px;
   box-sizing: border-box;
-  color: wheat;
+  color: rgb(3, 3, 3, 0.63);
   box-shadow: rgba(0, 0, 0, 0, 06);
 }
 #but {
@@ -53,8 +62,8 @@ h6 {
   width: 180px;
   border-radius: 22px;
   background-color: orangered;
-  background-color: rgba(82, 38, 7, 0.7);
-  color: white;
+  background-color: #fabd03;
+  color: rgb(3, 3, 3, 0.6);
 }
 #but:hover {
   background-color: rgba(82, 38, 7, 0.7);
@@ -63,7 +72,7 @@ h6 {
 
 #abus {
   height: 260px;
-  background-color: rgba(82, 38, 7, 0.7);
+  background-color: #fabd03;
   text-align: center;
   padding: 40px 60px 0px 60px;
   box-sizing: border-box;
@@ -80,11 +89,11 @@ h6 {
 }
 .products {
   height: 600px;
-  background-color: rgb(235, 221, 201);
+  background-color: rgb(248, 241, 227);
 }
 .products h2,
 .products p {
-  color: rgb(150, 144, 134);
+  color: rgb(3, 3, 3, 0.6);
   text-align: center;
 }
 .products h2 {
@@ -122,7 +131,7 @@ a:hover {
 }
 #a1 {
   width: 200px;
-  background-color: rgba(121, 53, 5, 0.9);
+  background-color: #fabd03;
   height: 50px;
   color: white;
   display: flex;
@@ -134,11 +143,11 @@ a:hover {
 
 .dua {
   flex: 3;
-  background-image: url(../Assets/IMG/Menu/3.jpeg);
+  background-image: url(../Assets/IMG/Menu/pedas-removebg-preview.png);
   margin: 15px;
   background-size: cover;
-  background-position: -10px -40px;
-  border-radius: 10px;
+  background-position: 0px -10px;
+  border-radius: 50%;
   border: 3px solid rgb(187, 154, 92);
   height: 200px;
   width: 200px;
@@ -146,76 +155,89 @@ a:hover {
   position: relative;
 }
 #a2 {
-  width: 200px;
-  background-color: rgb(126, 58, 9);
+  width: 120px;
+  background-color: #fabd03;
   height: 50px;
-  color: wheat;
+  color: rgb(3, 3, 3, 0.6);
   font-weight: bold;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   position: absolute;
+  bottom: 0px;
+  border-radius: 20px;
+  font-size: small;
+  right: 40px;
 }
 .tiga {
   flex: 3;
-  background-image: url(../Assets/IMG/Menu/4.jpeg);
+  background-image: url(../Assets/IMG/Menu/bawang-removebg-preview.png);
   margin: 15px;
   background-size: cover;
-  background-position: -10px -30px;
+  background-position: 0px -10px;
   border-radius: 10px;
   border: 3px solid rgb(187, 154, 92);
   height: 200px;
   width: 200px;
+  border-radius: 50%;
   position: relative;
   display: flex;
 }
 #a3 {
-  width: 200px;
-  background-color: rgb(126, 58, 9);
+  width: 120px;
+  background-color: #fabd03;
   height: 50px;
   display: flex;
   font-weight: bold;
   flex-wrap: wrap;
-  color: wheat;
+  color: rgb(3, 3, 3, 0.6);
   align-items: center;
   justify-content: center;
-
+  bottom: 0px;
   position: absolute;
+  right: 40px;
+  border-radius: 20px;
+  font-size: small;
 }
 .empat {
   flex: 3;
-  background-image: url(../Assets/IMG/Menu/5.jpeg);
+  background-image: url(../Assets/IMG/Menu/kencur-removebg-preview.png);
   margin: 15px;
   background-size: cover;
-  background-position: -10px -30px;
+  background-position: 0px -10px;
   border-radius: 10px;
   border: 3px solid rgb(187, 154, 92);
   height: 200px;
   width: 200px;
-  display: flex;
+  border-radius: 50%;
   position: relative;
+  display: flex;
 }
 #a4 {
-  width: 200px;
-  background-color: rgb(126, 58, 9);
+  width: 120px;
+  background-color: #fabd03;
   height: 50px;
   display: flex;
   font-weight: bold;
   flex-wrap: wrap;
-  color: wheat;
+  color: rgb(3, 3, 3, 0.6);
   align-items: center;
   justify-content: center;
-
+  bottom: 0px;
   position: absolute;
+  right: 40px;
+  border-radius: 20px;
+  font-size: small;
 }
 .lima {
   flex: 3;
-  background-image: url(../Assets/IMG/Menu/6.jpeg);
+  background-image: url(../Assets/IMG/Menu/kencur_bot-removebg-preview_1__1_-removebg-preview.png);
   margin: 15px;
+  border-radius: 50%;
   background-size: cover;
-  background-position: -10px 0px;
-  border-radius: 10px;
+  background-position: 0px -10px;
+  border-radius: 50%;
   border: 3px solid rgb(187, 154, 92);
   height: 200px;
   width: 200px;
@@ -223,19 +245,23 @@ a:hover {
   position: relative;
 }
 #a5 {
-  width: 200px;
-  background-color: rgb(126, 58, 9);
+  width: 120px;
+  background-color: #fabd03;
   height: 50px;
   display: flex;
   font-weight: bold;
   flex-wrap: wrap;
-  color: wheat;
+  color: rgb(3, 3, 3, 0.6);
   align-items: center;
   justify-content: center;
+  bottom: 0px;
   position: absolute;
+  right: 40px;
+  border-radius: 20px;
+  font-size: small;
 }
 #about {
-  background-color: rgba(82, 38, 7, 0.7);
+  background-color: #fabd03;
   height: 350px;
   line-height: 0.75cm;
   padding: 40px 60px;
@@ -289,16 +315,16 @@ a:hover {
 #footer {
   text-align: center;
   padding: 20px;
-  background-color: rgba(82, 38, 7, 0.7);
+  background-color: #fabd03;
 }
 #footer h5 {
   padding-bottom: 5px;
   padding-top: 30px;
-  color: wheat;
+  color: rgb(3, 3, 3, 0.6);
 }
 #footer h6 {
   font-family: sans-serif;
-  color: wheat;
+  color: rgb(3, 3, 3, 0.6);
   font-size: small;
 }
 
@@ -328,8 +354,8 @@ a:hover {
     text-align: center;
     padding: 147px 50px;
     background-position: 0px 0px;
-    height: 600px;
     width: auto;
+    height: 430px;
   }
   #but {
     width: 100px;
@@ -363,7 +389,7 @@ a:hover {
 
   /* mengatur products */
   #products {
-    height: 1100px;
+    height: 1460px;
     width: auto;
   }
   #products h2 {
@@ -380,9 +406,9 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 1000px;
+    height: 1300px;
   }
-  .satu {
+  /* .satu {
     flex: 6;
     width: 91.5%;
     margin-top: 200px;
@@ -394,54 +420,72 @@ a:hover {
     font-size: 12px;
     font-weight: bold;
     bottom: 0px;
+  } */
+
+  .dua {
+    flex: 6;
+    background-position: 0px -10px;
+    width: 91.5%;
+    height: 300px;
+    position: relative;
   }
   #a2 {
     border-radius: 4px;
-    width: 100%;
+    width: 120px;
     font-size: 12px;
     font-weight: bold;
     bottom: 0px;
-  }
-  #a3 {
-    border-radius: 4px;
-    width: 100%;
-    font-size: 12px;
-    font-weight: bold;
-    bottom: 0px;
-  }
-  #a4 {
-    border-radius: 4px;
-    width: 100%;
-    font-size: 12px;
-    font-weight: bold;
-    bottom: 0px;
-  }
-  #a5 {
-    border-radius: 4px;
-    width: 100%;
-    font-size: 12px;
-    font-weight: bold;
-    bottom: 0px;
-  }
-  .dua {
-    flex: 6;
-    background-position: 0px -200px;
-    width: 91.5%;
+    right: 90px;
+    position: absolute;
   }
   .tiga {
     flex: 6;
-    background-position: 0px -200px;
+    background-position: 0px -10px;
+    height: 300px;
     width: 91.5%;
+    position: relative;
+  }
+  #a3 {
+    border-radius: 4px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 0px;
+    right: 90px;
+    position: absolute;
   }
   .empat {
     flex: 6;
-    background-position: 0px -200px;
+    background-position: 0px -10px;
     width: 91.5%;
+    height: 300px;
+    position: relative;
+  }
+  #a4 {
+    border-radius: 4px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 0px;
+    right: 90px;
+    position: absolute;
   }
   .lima {
     flex: 6;
-    background-position: 0px -200px;
+    background-position: 0px -10px;
     width: 91.5%;
+    height: 300px;
+    position: relative;
+  }
+
+  #a5 {
+    border-radius: 4px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 0px;
+    right: 90px;
+    position: absolute;
   }
   /* akhir mengatur products */
 
