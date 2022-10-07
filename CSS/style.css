@@ -282,6 +282,12 @@ a:hover {
   width: 400px;
   margin: 15px;
 }
+#inp1,
+#inp2,
+#inp3,
+#inp4 {
+  border: 1px solid #fabd03;
+}
 #kirim:hover {
   background-color: orangered;
 }
