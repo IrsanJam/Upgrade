@@ -23,6 +23,9 @@ p {
 .navbar {
   background-color: #fabd03 !important;
   height: 90px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
 .main h1,
@@ -49,9 +52,9 @@ h6 {
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
-  background-position: 0px -450px;
-  padding: 170px 15%;
-  height: 680px;
+  background-position: 0px -360px;
+  padding: 290px 300px;
+  height: 770px;
   box-sizing: border-box;
   color: rgb(3, 3, 3, 0.63);
   box-shadow: rgba(0, 0, 0, 0, 06);
@@ -88,7 +91,7 @@ h6 {
   padding-top: 0px;
 }
 .products {
-  height: 1750px;
+  height: 1850px;
   background-color: rgb(248, 241, 227);
 }
 .products h2,
@@ -300,14 +303,13 @@ a:hover {
 }
 #about {
   background-color: #fabd03;
-  height: 350px;
+  height: 450px;
   line-height: 0.75cm;
-  padding: 40px 60px;
+  padding: 90px 60px;
 }
-.contacts p,
 .contacts h2 {
   color: gray;
-  padding-top: 30px;
+  padding-top: 120px;
 }
 
 .contacts p {
@@ -379,8 +381,8 @@ a:hover {
 
   .navbar {
     height: 70px;
-    width: auto;
     box-sizing: border-box;
+    position: static;
   }
   /* untuk mengatur main */
   .main #utama {
@@ -694,8 +696,9 @@ a:hover {
 
   .navbar {
     height: 70px;
-    width: auto;
+    width: 100%;
     box-sizing: border-box;
+    position: static;
   }
   /* untuk mengatur main */
   .main #utama {
@@ -863,7 +866,7 @@ a:hover {
     border: 1px solid #fabd03;
     height: 400px;
     width: 300px;
-    margin: 4px;
+    margin: 15px;
     border-radius: 20px;
     display: flex;
     position: relative;
@@ -893,7 +896,7 @@ a:hover {
     border: 1px solid #fabd03;
     height: 400px;
     width: 300px;
-    margin: 4px;
+    margin: 15px;
     position: relative;
     display: flex;
     border-radius: 20px;
@@ -922,7 +925,7 @@ a:hover {
     border: 1px solid #fabd03;
     height: 400px;
     width: 300px;
-    margin: 4px;
+    margin: 15px;
     position: relative;
     display: flex;
     border-radius: 20px;
@@ -951,7 +954,7 @@ a:hover {
     border: 1px solid #fabd03;
     height: 400px;
     width: 300px;
-    margin: 4px;
+    margin: 15px;
     display: flex;
     position: relative;
     border-radius: 20px;
