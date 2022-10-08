@@ -428,7 +428,7 @@ a:hover {
 
   /* mengatur products */
   #products {
-    height: 2100px;
+    height: 2150px;
     width: auto;
   }
   #products h2 {
@@ -444,7 +444,7 @@ a:hover {
   .keunggulan {
     display: flex;
     flex-direction: column;
-    height: 590px;
+    height: 630px;
     background-color: #fabd03;
   }
   #titleunggul {
@@ -459,6 +459,7 @@ a:hover {
     width: 100%;
     height: 200px;
     padding-bottom: 30px;
+    margin-bottom: 60px;
   }
   .unggul h3 {
     text-align: center;
@@ -470,6 +471,7 @@ a:hover {
     color: rgb(3, 3, 3, 0.63);
     text-align: justify;
     padding-bottom: 40px;
+    margin-bottom: 20px;
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
@@ -483,7 +485,7 @@ a:hover {
   }
   .picunggul {
     flex: 1;
-    height: 200px;
+    height: 400px;
     margin: auto;
     background-image: url(../Assets/IMG/Menu/bawang-removebg-preview.png);
     background-position: 50% 50%;
