@@ -588,6 +588,10 @@ a:hover {
     bottom: 0px;
     position: absolute;
   }
+  .harga {
+    font-weight: bold;
+    margin-left: 5px;
+  }
   /* akhir mengatur products */
 
   /* mengatur about */
@@ -966,6 +970,10 @@ a:hover {
     position: absolute;
     border-radius: 20px;
     font-size: small;
+  }
+  .harga {
+    font-weight: bold;
+    margin-left: 5px;
   }
   /* akhir mengatur products */
 
