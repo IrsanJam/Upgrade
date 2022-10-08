@@ -317,7 +317,7 @@ a:hover {
   display: flex;
   padding: 15px;
   border-radius: 10px;
-  width: 400px;
+  width: 40%;
   margin: 15px;
 }
 #inp1,
@@ -367,7 +367,7 @@ a:hover {
   font-size: small;
 }
 
-@media (max-width: 1058px) {
+@media (max-width: 500px) {
   * {
     max-width: 100%;
   }
@@ -428,7 +428,7 @@ a:hover {
 
   /* mengatur products */
   #products {
-    height: 2150px;
+    height: 2000px;
     width: auto;
   }
   #products h2 {
@@ -444,7 +444,7 @@ a:hover {
   .keunggulan {
     display: flex;
     flex-direction: column;
-    height: 630px;
+    height: 500px;
     background-color: #fabd03;
   }
   #titleunggul {
@@ -462,18 +462,15 @@ a:hover {
     margin-bottom: 60px;
   }
   .unggul h3 {
-    text-align: center;
-    font-size: 12px;
-    padding-top: 45px;
+    visibility: hidden;
   }
   .unggul h4 {
     font-family: sans-serif;
     color: rgb(3, 3, 3, 0.63);
     text-align: justify;
-    padding-bottom: 20px;
     width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
     font-size: 9px;
     font-weight: normal;
     line-height: 0.5cm;
@@ -484,8 +481,10 @@ a:hover {
   }
   .picunggul {
     flex: 1;
-    height: 400px;
+    height: 50px;
     margin: auto;
+    width: 150px;
+    background-size: cover;
     background-image: url(../Assets/IMG/Menu/bawang-removebg-preview.png);
     background-position: 50% 50%;
     padding-bottom: 30px;
@@ -517,6 +516,7 @@ a:hover {
     background-position: 35% 65%;
     width: 80%;
     margin: auto;
+    border-radius: 20px;
     height: 300px;
     position: relative;
     margin-bottom: 15px;
@@ -533,6 +533,7 @@ a:hover {
     flex: 6;
     background-position: 35% 65%;
     height: 300px;
+    border-radius: 20px;
     width: 80%;
     margin: auto;
     position: relative;
@@ -551,6 +552,7 @@ a:hover {
     background-position: 35% 65%;
     width: 80%;
     margin: auto;
+    border-radius: 20px;
     height: 300px;
     position: relative;
     margin-bottom: 15px;
@@ -568,6 +570,7 @@ a:hover {
     background-position: 35% 65%;
     width: 80%;
     margin: auto;
+    border-radius: 20px;
     height: 300px;
     position: relative;
     margin-bottom: 15px;
@@ -621,7 +624,7 @@ a:hover {
   }
   .input {
     display: flex;
-    width: 300px;
+    width: 80%;
     height: 10%;
     border-radius: 5px;
   }
