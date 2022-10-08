@@ -372,7 +372,7 @@ a:hover {
   font-size: small;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 767px) {
   * {
     max-width: 100%;
   }
@@ -667,6 +667,385 @@ a:hover {
   }
   #wa {
     font-family: Arial, Helvetica, sans-serif;
+  }
+  #footer {
+    width: auto;
+  }
+  #footer h5 {
+    font-size: 14px;
+  }
+  #footer h6 {
+    font-size: 9px;
+  }
+  /* akhir mengatur contacts */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    background-position: 0px 0px;
+  }
+  * {
+    max-width: 100%;
+  }
+
+  .navbar {
+    height: 70px;
+    width: auto;
+    box-sizing: border-box;
+  }
+  /* untuk mengatur main */
+  .main #utama {
+    font-size: 100px;
+    width: 100%;
+  }
+  .main #subs {
+    font-size: 17px;
+    width: 100%;
+  }
+  .main h6 {
+    font-size: 10px;
+  }
+  .main {
+    text-align: center;
+    padding: 177px 50px;
+    background-position: 0px 0px;
+    width: auto;
+    height: 530px;
+  }
+  #but {
+    width: 100px;
+    height: 38px;
+    font-size: 9px;
+  }
+  #but:hover {
+    background-color: rgba(82, 38, 7, 0.7);
+    background-color: orangered;
+  }
+  /* akhir untuk mengatur main */
+
+  /* mengatur about us */
+  #abus {
+    padding-top: 28px;
+    height: 220px;
+    width: auto;
+  }
+  #abus h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+  }
+  #abus p {
+    font-size: 9px;
+    text-align: justify;
+    padding-bottom: 30px;
+    line-height: 0.5cm;
+  }
+  /* akhir mengatur about us */
+
+  /* mengatur products */
+  #products {
+    height: 1400px;
+    width: auto;
+  }
+  #products h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 19px;
+  }
+  #products p {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .keunggulan {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    position: relative;
+  }
+  #titleunggul {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 200px;
+    font-family: sans-serif;
+  }
+  .unggul {
+    flex: 1;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+  }
+  .unggul h3 {
+    visibility: hidden;
+  }
+  .unggul h4 {
+    font-family: sans-serif;
+    color: rgb(3, 3, 3, 0.63);
+    text-align: justify;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 9px;
+    font-weight: normal;
+    line-height: 0.5cm;
+  }
+
+  #titleprod {
+    margin-top: 30px;
+  }
+  .picunggul {
+    flex: 1;
+    height: 220px;
+    margin: auto;
+    width: 220px;
+    background-size: cover;
+    background-image: url(../Assets/IMG/Menu/bawang-removebg-preview.png);
+    background-position: 50% 50%;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 100px;
+  }
+  .picunggul img {
+    visibility: hidden;
+  }
+  #container {
+    display: flex;
+    flex-direction: row;
+    height: 352px;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  a {
+    text-decoration: none;
+    color: wheat;
+  }
+  a:hover {
+    color: orange;
+  }
+  .satu {
+    flex: 3;
+    background-image: url(../Assets/IMG/Menu/1.jpeg);
+    margin: 15px;
+    background-size: cover;
+    border-radius: 10px;
+    border: 3px solid rgb(187, 154, 92);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: relative;
+  }
+  #a1 {
+    width: 200px;
+    background-color: #fabd03;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+
+  .dua {
+    flex: 3;
+    background-image: url(../Assets/IMG/Menu/pedas-removebg-preview.png);
+    background-size: cover;
+    background-color: white;
+    background-position: -40px 0px;
+    border: 1px solid #fabd03;
+    height: 400px;
+    width: 300px;
+    margin: 4px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+  }
+
+  #a2 {
+    width: 500px;
+    background-color: #fabd03;
+    height: 50px;
+    color: rgb(3, 3, 3, 0.6);
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 20px;
+    font-size: small;
+  }
+  .tiga {
+    flex: 1;
+    background-image: url(../Assets/IMG/Menu/bawang-removebg-preview.png);
+    background-size: cover;
+    background-color: white;
+    background-position: -40px 0px;
+    border: 1px solid #fabd03;
+    height: 400px;
+    width: 300px;
+    margin: 4px;
+    position: relative;
+    display: flex;
+    border-radius: 20px;
+  }
+  #a3 {
+    width: 500px;
+    background-color: #fabd03;
+    height: 50px;
+    display: flex;
+    font-weight: bold;
+    flex-wrap: wrap;
+    color: rgb(3, 3, 3, 0.6);
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    position: absolute;
+    border-radius: 20px;
+    font-size: small;
+  }
+  .empat {
+    flex: 1;
+    background-image: url(../Assets/IMG/Menu/kencur-removebg-preview.png);
+    background-size: cover;
+    background-color: white;
+    background-position: -40px 0px;
+    border: 1px solid #fabd03;
+    height: 400px;
+    width: 300px;
+    margin: 4px;
+    position: relative;
+    display: flex;
+    border-radius: 20px;
+  }
+  #a4 {
+    width: 500px;
+    background-color: #fabd03;
+    height: 50px;
+    display: flex;
+    font-weight: bold;
+    flex-wrap: wrap;
+    color: rgb(3, 3, 3, 0.6);
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    position: absolute;
+    border-radius: 20px;
+    font-size: small;
+  }
+  .lima {
+    flex: 1;
+    background-image: url(../Assets/IMG/Menu/kencur_bot-removebg-preview_1__1_-removebg-preview.png);
+    background-color: white;
+    background-size: cover;
+    background-position: -40px 0px;
+    border: 1px solid #fabd03;
+    height: 400px;
+    width: 300px;
+    margin: 4px;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+  }
+  #a5 {
+    width: 500px;
+    background-color: #fabd03;
+    height: 50px;
+    display: flex;
+    font-weight: bold;
+    flex-wrap: wrap;
+    color: rgb(3, 3, 3, 0.6);
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    position: absolute;
+    border-radius: 20px;
+    font-size: small;
+  }
+  /* akhir mengatur products */
+
+  /* mengatur about */
+  #about {
+    padding-top: 10px;
+    height: auto;
+    padding-bottom: 10px;
+    width: auto;
+  }
+  #about h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+  }
+  #about p {
+    font-size: 9px;
+    text-align: justify;
+    line-height: 0.5cm;
+  }
+  /* akhir mengatur about */
+
+  /* mengatur contacts */
+  #contacts {
+    padding-top: 10px;
+    height: auto;
+    padding-bottom: 20px;
+    width: auto;
+  }
+  #contacts h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 19px;
+  }
+  #contacts p {
+    padding-top: 0px;
+    font-size: 9px;
+    text-align: center;
+  }
+  .input {
+    display: flex;
+    width: 50%;
+    height: 10%;
+    border-radius: 5px;
+  }
+  .input:-webkit-input-placeholder {
+    font-size: 9px;
+    color: aqua;
+  }
+  .input::-moz-placeholder {
+    font-size: 9px;
+  }
+  #inp1 {
+    height: 12px;
+    border: 1px solid wheat;
+  }
+  #inp2 {
+    height: 12px;
+    border: 1px solid wheat;
+  }
+  #inp3 {
+    height: 12px;
+    border: 1px solid wheat;
+  }
+  #inp4 {
+    height: 300px;
+    border: 1px solid wheat;
+  }
+  #kirim {
+    width: 100px;
+    height: 30px;
+    font-size: small;
+    border-radius: 5px;
+    background-color: gray;
+  }
+  #kirim:hover {
+    background-color: orangered;
+  }
+  #wa {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
   }
   #footer {
     width: auto;
