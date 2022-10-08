@@ -367,7 +367,7 @@ a:hover {
   font-size: small;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1058px) {
   * {
     max-width: 100%;
   }
