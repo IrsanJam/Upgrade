@@ -116,8 +116,8 @@ h6 {
   border-radius: 30px;
 }
 .unggul {
-  flex: 1;
-  margin: 50px;
+  flex: 2;
+  margin-left: 50px;
 }
 .unggul h3,
 h4 {
@@ -143,6 +143,8 @@ h4 {
 }
 .picunggul {
   flex: 1;
+  justify-content: center;
+  align-items: right;
 }
 #container {
   display: flex;
@@ -188,15 +190,21 @@ a:hover {
   flex: 3;
   background-image: url(../Assets/IMG/Menu/pedas-removebg-preview.png);
   background-size: cover;
-  background-color: white;
+  background-color: #2596be;
   background-position: 0px -60px;
-  border: 1px solid #fabd03;
+  border: 3px solid #fabd03;
   height: 400px;
   width: 500px;
   margin: 4px;
-  border-radius: 20px;
+  border-radius: 25px;
   display: flex;
   position: relative;
+}
+.dua:hover,
+.tiga:hover,
+.empat:hover,
+.lima:hover {
+  transform: scale(104%);
 }
 
 #a2 {
@@ -217,15 +225,15 @@ a:hover {
   flex: 1;
   background-image: url(../Assets/IMG/Menu/bawang-removebg-preview.png);
   background-size: cover;
-  background-color: white;
+  background-color: #34a855;
   background-position: 0px -60px;
-  border: 1px solid #fabd03;
+  border: 3px solid #fabd03;
   height: 400px;
   width: 500px;
   margin: 4px;
   position: relative;
   display: flex;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 #a3 {
   width: 500px;
@@ -245,15 +253,15 @@ a:hover {
   flex: 1;
   background-image: url(../Assets/IMG/Menu/kencur-removebg-preview.png);
   background-size: cover;
-  background-color: white;
+  background-color: #ec4235;
   background-position: 0px -60px;
-  border: 1px solid #fabd03;
+  border: 3px solid #fabd03;
   height: 400px;
   width: 500px;
   margin: 4px;
   position: relative;
   display: flex;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 #a4 {
   width: 500px;
@@ -272,16 +280,16 @@ a:hover {
 .lima {
   flex: 1;
   background-image: url(../Assets/IMG/Menu/kencur_bot-removebg-preview_1__1_-removebg-preview.png);
-  background-color: white;
+  background-color: rgb(247, 230, 3);
   background-size: cover;
   background-position: 0px -60px;
-  border: 1px solid #fabd03;
+  border: 3px solid #fabd03;
   height: 400px;
   width: 500px;
   margin: 4px;
   display: flex;
   position: relative;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 #a5 {
   width: 500px;
@@ -354,6 +362,7 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
+
 #no {
   font-size: 10px;
 }
@@ -401,7 +410,7 @@ a:hover {
     padding: 177px 50px;
     background-position: 0px 0px;
     width: auto;
-    height: 530px;
+    height: 560px;
   }
   #but {
     width: 100px;
@@ -452,6 +461,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     height: 500px;
+    border-radius: 0px;
   }
   #titleunggul {
     font-size: 12px;
@@ -522,7 +532,7 @@ a:hover {
     background-position: 35% -12px;
     width: 80%;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 25px;
     height: 300px;
     position: relative;
     margin-bottom: 15px;
@@ -531,7 +541,6 @@ a:hover {
     border-radius: 20px;
     width: 100%;
     font-size: 12px;
-    font-weight: bold;
     bottom: 0px;
     position: absolute;
   }
@@ -539,7 +548,7 @@ a:hover {
     flex: 6;
     background-position: 35% -12px;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 25px;
     width: 80%;
     margin: auto;
     position: relative;
@@ -549,7 +558,6 @@ a:hover {
     border-radius: 20px;
     width: 100%;
     font-size: 12px;
-    font-weight: bold;
     bottom: 0px;
     position: absolute;
   }
@@ -558,7 +566,7 @@ a:hover {
     background-position: 35% -12px;
     width: 80%;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 25px;
     height: 300px;
     position: relative;
     margin-bottom: 15px;
@@ -567,7 +575,6 @@ a:hover {
     border-radius: 20px;
     width: 100%;
     font-size: 12px;
-    font-weight: bold;
     bottom: 0px;
     position: absolute;
   }
@@ -576,7 +583,7 @@ a:hover {
     background-position: 35% -12px;
     width: 80%;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 25px;
     height: 300px;
     position: relative;
     margin-bottom: 15px;
@@ -586,7 +593,6 @@ a:hover {
     border-radius: 20px;
     width: 100%;
     font-size: 12px;
-    font-weight: bold;
     bottom: 0px;
     position: absolute;
   }
@@ -639,11 +645,10 @@ a:hover {
     border-radius: 5px;
   }
   .input:-webkit-input-placeholder {
-    font-size: 9px;
-    color: aqua;
+    font-size: 6px;
   }
   .input::-moz-placeholder {
-    font-size: 9px;
+    font-size: 7px;
   }
   #inp1 {
     height: 12px;
