@@ -19,7 +19,7 @@
   <body>
     <header id="header">
       <!-- <img src="Assets/IMG/Profil/2-removebg-preview.png" alt="Image" width="50px" height="50px" /> -->
-      <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+      <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="Assets/IMG/Profil/2-removebg-preview.png" alt="" width="50px" height="50px" /> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" id="green" aria-current="page" href="#"> Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
@@ -39,6 +39,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="#contacts">Contacts</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Testimoni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="whatsapp" href="https://wa.me/6285759494664"><img src="https://img.icons8.com/fluency/48/000000/whatsapp.png" /></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -46,23 +52,50 @@
     </header>
     <main>
       <div class="main">
-        <h1 id="utama">Welcome</h1>
-        <h1 id="subs">Tempat Ririungan Ibu Rumah Tangga</h1>
-        <h6>Biji Ketapang is delicious and cheap traditional food</h6>
-        <center>
-          <a href="#about"><button id="but">Find Out More</button></a>
-        </center>
+        <h1 id="utama">Legend Snack of</h1>
+        <h1 id="subs">Indonesia</h1>
+        <h6>
+          Biji Ketapang is a legendary Indonesian food, along with the times and the fear of extinction of this food, we try to make this business for our customers. here we will tell the history of our business and its products, why we
+          sell this product and why it is suitable for customers
+        </h6>
+        <a href="#about"><button id="but">Find Out More</button></a>
+        <div class="image">
+          <img src="zyro-image-removebg-preview.png" alt="" width="600px" height="500px" />
+        </div>
       </div>
       <article id="abus">
-        <h2>Story</h2>
+        <h5>THE PRODUCT</h5>
+        <h2>Benefits and Advantage</h2>
         <p>
-          The culinary business in Indonesia is increasingly in demand by seeing the increasing number of people who like it, whether traditional, national or international food. Culinary business entrepreneurs are competing creating
-          creative ideas in developing his culinary business, one of which is by making the legendary product, and we are making biji ketapang now.
+          Consuming biji ketapang and supplemented with a light diet will really help you lose weight cholesterol levels in the blood, as for other advantages such as: Lowering the risk of heart attack, preventing hypertension, helping to
+          lose weight and treating premature ejaculation.
         </p>
+        <div class="benefits">
+          <div class="one">
+            <img class="icon" src="https://img.icons8.com/fluency/60/000000/bonds.png" />
+            <div class="judben"><h5>Harga Murah</h5></div>
+            <div class="judpen"><h6>Kami menjual produk dengan harga terjangkau untuk menjangkau kondisi masyarakat</h6></div>
+          </div>
+          <div class="two">
+            <img class="icon" src="https://img.icons8.com/fluency/60/000000/heart-with-pulse.png" />
+            <div class="judben"><h5>Sehat</h5></div>
+            <div class="judpen"><h6>Produk ini mengandung beberapa manfaat diantaranya untuk mengontrol kolestrol dan jantung</h6></div>
+          </div>
+          <div class="three">
+            <img class="icon" src="https://img.icons8.com/fluency/60/000000/child-safe-zone.png" />
+            <div class="judben"><h5>Untuk semua usia</h5></div>
+            <div class="judpen"><h6>Produk ini aman dikonsumsi hampir semua usia dari muda sampai tua, karena cocok sebagai cemilan</h6></div>
+          </div>
+          <div class="four">
+            <img class="icon" src="https://img.icons8.com/fluency/60/000000/trust.png" />
+            <div class="judben"><h5>Produk Terpercaya</h5></div>
+            <div class="judpen"><h6>Produk Kami sudah berizin dan sudah berdiri lebih dari satu dekade</h6></div>
+          </div>
+        </div>
       </article>
       <div class="products" id="products">
         <h2>Products</h2>
-        <p>Let's see what biji ketapang is and its benefits, here we go</p>
+        <!-- <p>Let's see what biji ketapang is and its benefits, here we go</p>
         <div class="keunggulan">
           <div class="unggul">
             <h3>What is Biji Ketapang and Benefits</h3>
@@ -76,7 +109,7 @@
           <div class="picunggul">
             <a href="#titleprod"><img src="Assets/IMG/Menu/bawang-removebg-preview.png" width="450px" height="400px" alt="" /></a>
           </div>
-        </div>
+        </div> -->
         <p id="titleprod">We have several flavors, here are our biji ketapang products</p>
         <div id="container">
           <!-- <a href="Assets/IMG/Menu/1.jpeg"
@@ -125,13 +158,16 @@
             <input type="email" id="inp3" class="input" name="email" placeholder=" Email" required="" />
             <textarea name="text" id="inp4" class="input" name="message" cols="30" rows="10" placeholder="Type your Request" required=""></textarea>
             <button id="kirim" onclick="window.location.reload">Kirim</button>
+            <button id="reset">Reset</button>
           </center>
           <center>
             <div class="row gx-4 gx-lg-5 justify-content-center">
               <div class="col-lg-4 text-center mb-5 mb-lg-0">
                 <h5 id="wa">Need Fast Respond click the Icon below</h5>
-                <a href="https://wa.me/6285759494664"><i id="ico" class="bi-whatsapp fs-2 mb-3 text-success"></i></a>
-                <a href="mailto:mintarsih2019@gmail.com"><i class="bi-envelope fs-2 mb-3 text-danger"></i></a>
+                <a href="https://wa.me/6285759494664" id="ico"><img src="https://img.icons8.com/fluency/48/000000/whatsapp.png" /></a>
+                <a href="mailto:mintarsih2019@gmail.com"
+                  ><img src="https://img.icons8.com/external-dreamcreateicons-outline-color-dreamcreateicons/48/000000/external-email-internet-security-dreamcreateicons-outline-color-dreamcreateicons.png"
+                /></a>
                 <div class="mb-2"><i class="bi-houses fs-1 text-muted"></i></div>
                 <div id="no">0857-5949-4664</div>
               </div>
