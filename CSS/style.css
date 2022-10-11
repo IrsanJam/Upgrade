@@ -127,9 +127,11 @@ h6 {
   width: 40%;
   margin: auto;
   margin-right: 0px;
-  border-radius: 20%;
-  background: linear-gradient(-170deg, #34a855, #2596be);
+  border-radius: 20px;
   box-shadow: 2px 2px 10px rgb(3, 3, 3, 0.7);
+}
+.image img {
+  border-radius: 20px;
 }
 #but {
   margin-top: 30px;
@@ -154,7 +156,7 @@ h6 {
   box-sizing: border-box;
   line-height: 0.75cm;
 }
-#abus h5 {
+#titleabus {
   font-family: sans-serif;
   color: #fabd03;
   font-weight: bold;
@@ -194,8 +196,9 @@ h6 {
   position: relative;
   box-shadow: 2px 2px 10px rgb(7, 7, 7, 0.3);
   border-radius: 12px;
+  background-color: #fabd03;
 }
-.one {
+/* .one {
   background-color: #2596be;
 }
 .two {
@@ -206,18 +209,19 @@ h6 {
 }
 .four {
   background-color: rgba(56, 37, 2, 0.699);
-}
+} */
 .icon {
   position: absolute;
   text-align: center;
   right: 38%;
   top: 10%;
 }
-.judben {
-  color: #fabd03;
+.judben h5 {
+  color: white;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
+  padding-top: 100px;
 }
 .judpen h6 {
   font-size: 12px;
@@ -226,25 +230,25 @@ h6 {
   position: absolute;
   flex-direction: row;
   padding: 20px;
-  color: white;
+  color: rgb(3, 3, 3, 0.6);
   position: absolute;
   line-height: 0.5cm;
 }
 /* akhir abus advantage */
 .products {
   height: 1300px;
-  background: linear-gradient(350deg, salmon, #063970, salmon);
+  background-color: #fabd03;
   padding-bottom: 180px;
 }
 .products h2,
 .products p {
-  color: white;
+  color: rgba(3, 3, 3, 0.6);
   text-align: center;
 }
 .products h2 {
   padding-top: 120px;
   font-weight: bold;
-  color: #fabd03;
+  color: rgba(3, 3, 3, 0.6);
 }
 .products p {
   padding-top: 30px;
@@ -373,7 +377,6 @@ a:hover {
   background-size: cover;
   background-color: #34a855;
   box-shadow: 2px 2px 10px rgb(7, 7, 7, 0.3);
-
   background-position: 0px -60px;
   height: 400px;
   width: 500px;
@@ -488,7 +491,7 @@ a:hover {
 
 .testimoni {
   height: 700px;
-  background: linear-gradient(350deg, #fabd03, #063970, salmon);
+  background-color: white;
   text-align: center;
   box-sizing: border-box;
   line-height: 0.75cm;
@@ -509,7 +512,7 @@ a:hover {
 
 .testimoni p {
   padding: 10px 420px 0px;
-  color: white;
+  color: rgb(3, 3, 3, 0.6);
 }
 
 .testimoni .benefits {
@@ -550,11 +553,11 @@ a:hover {
 .testimoni .icon {
   position: absolute;
   text-align: center;
-  right: 44%;
-  top: 20%;
+  right: 42%;
+  top: 15%;
 }
 .testimoni .three .icon {
-  top: 16%;
+  top: 12%;
 }
 .testimoni .judben h5 {
   color: white;
@@ -588,11 +591,11 @@ a:hover {
 /* akhir testimonials */
 .contacts p {
   padding-bottom: 30px;
-  color: white;
+  color: rgba(3, 3, 3, 0.6);
 }
 
 .contacts {
-  background: linear-gradient(-170deg, #34a855, #2596be);
+  background-color: white;
 }
 
 .input {
@@ -606,7 +609,7 @@ a:hover {
 #inp2,
 #inp3,
 #inp4 {
-  border: 1px solid gray;
+  border: 2px solid #fabd03;
 }
 #kirim:hover,
 #reset:hover {
@@ -633,7 +636,7 @@ a:hover {
 }
 
 #no {
-  font-size: 10px;
+  font-size: 1px;
 }
 
 #footer {
